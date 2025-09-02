@@ -1,5 +1,11 @@
 # HR-Talent-Analytics-CodeNest
 
+![1](https://github.com/user-attachments/assets/4662b1db-2d31-4d2c-90f9-1028d991f723)
+
+![2](https://github.com/user-attachments/assets/b4d9ebd5-eb4b-4f77-8b9d-aeca3a1bd3b9)
+
+![1](https://github.com/user-attachments/assets/73bcb093-ac1e-4989-be57-bcab6a4ac1cd)
+
 ---
 
 ## Executive Snapshot  
