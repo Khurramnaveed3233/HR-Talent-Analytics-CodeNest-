@@ -111,4 +111,4 @@ People data is not HR data—it’s business performance data.
 Stem attrition in Life-Sciences, balance gender in R&D, and we save ₹3.1 Cr while boosting innovation capacity.
 
 Let’s turn insight into action—and action into ROI.”
-— [Your Name], Data Analyst
+— Khurram Naveed , Data Analyst
