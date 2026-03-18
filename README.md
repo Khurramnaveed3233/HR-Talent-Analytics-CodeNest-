@@ -141,11 +141,6 @@ Additional gains: Higher innovation capacity, improved employer brand, reduced r
 
 ---
 
-##  Dashboard Preview
-
-![HR Attrition Dashboard](HR%20Analytics%20Dashboard.jpg)
-
----
 
 ##  About
 
