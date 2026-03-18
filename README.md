@@ -8,134 +8,130 @@
 
 ---
 
-## Project Overview
 
-This project analyzes employee attrition patterns across multiple dimensions — demographics, job roles, departments, compensation, and engagement factors — using Power BI. The dashboards consolidate HRIS, survey, and payroll data to uncover attrition drivers, quantify their financial impact, and recommend data-backed interventions.
+# 👥 HR Attrition & Turnover Analysis – Power BI
 
-## Executive Summary
-
-Our analysis reveals that 16% of employees left the organization during the reporting period, with attrition concentrated in specific departments, job roles, and demographic segments. Key findings include:
-
-- Life Sciences and Laboratory Technician roles show the highest turnover rates, costing the business millions in replacement and lost productivity.
-
-- Gender imbalance in technical roles (only 6% female in R&D) limits diversity and innovation potential.
-
-- Mid-career employees (26–35) face the highest attrition risk due to shorter tenure and lower satisfaction.
-
-- Overtime, low performance ratings, and limited career progression are strong predictors of churn.
-
-## Data Sources
-
-- HRIS: Employee demographics, job roles, tenure, department
-- Payroll: Monthly income, salary quartiles
-- Engagement Surveys: Job satisfaction, eNPS
-- Exit Interviews: Attrition reasons
-- ATS/Recruitment Data: Hiring pipeline and replacement costs
-
-# HR Attrition & Turnover Analysis – Power BI Project
-
-##  Key Insights & Findings
-
-### 1. Attrition Hotspots
-
-**Life Sciences Department**
-- Attrition rate: **39%** (2.3× company average)
-- Annual cost: **₹2.8 Cr** in replacement and lost IP
-- Primary driver: Limited career growth paths
-
-**Laboratory Technicians**
-
-- 62 exits, concentrated in early tenure
-- High turnover despite moderate pay — suggests engagement and career development issues
-
-**Sales Representatives**
-
-- 53 exits, often linked to high travel and performance pressure
+> **Role:** Data Analyst | **Tools:** Power BI · DAX · SQL · Power Query · Excel | **Domain:** HR Analytics · People Analytics
 
 ---
 
-### 2. Gender Imbalance in Technical Roles
+## 📌 Project Overview
 
-- **R&D**: Only **6% female representation** (37 women out of 587 roles)
-- **Impact**: Limits diversity of thought, reduces innovation capacity
-- **Recommendation**: Launch targeted *Women in Tech* scholarship and mentorship programs to raise representation to **15%** within 12 months
+Analyzed employee attrition patterns across demographics, job roles, departments, compensation, and engagement factors using Power BI. The dashboards consolidate HRIS, survey, and payroll data to **uncover attrition drivers, quantify financial impact, and recommend data-backed interventions** — turning HR data into business performance intelligence.
 
 ---
 
-### 3. Tenure & Satisfaction Risk Zones
+## 🎯 Executive Summary
 
-**26–35 Age Group**
-- Avg tenure: **3.2 years**
-- Satisfaction: **3.7/5**
-- High attrition risk — mid-career professionals leaving for better growth opportunities
-
-**18–25 Age Group**
-- Shortest tenure (**1.1 years**) but medium risk — often entry-level churn
-
-**36–55 Age Group**
-- Longest tenure (**6.4 years**) and highest satisfaction — low attrition risk
+| Metric | Value |
+|---|---|
+| Overall Attrition Rate | 16% |
+| Life Sciences Attrition | 39% (2.3× company average) |
+| Annual Cost — Life Sciences | ₹2.8 Cr in replacement + lost productivity |
+| Female R&D Representation | Only 6% (37 out of 587 roles) |
+| Projected Annual Savings (if recommendations implemented) | ₹3.1 Cr |
+| Highest Risk Age Group | 26–35 years (avg tenure 3.2 years) |
+| Salary–Satisfaction Correlation | r = 0.57 |
 
 ---
 
-### 4. Compensation & Engagement Link
+## 🔍 Key Findings
+
+### 1. 🔥 Attrition Hotspots
+
+| Role / Department | Exits | Key Driver |
+|---|---|---|
+| Life Sciences | 39% attrition rate | Limited career growth paths |
+| Laboratory Technicians | 62 exits | Low engagement, early-tenure churn |
+| Sales Representatives | 53 exits | High travel pressure and performance stress |
+
+### 2. ⚖️ Gender Imbalance in Technical Roles
+- R&D has only **6% female representation** (37 women out of 587 roles)
+- Limits diversity of thought and reduces innovation capacity
+- **Target:** Raise female R&D representation to **15% within 12 months**
+
+### 3. 📅 Tenure & Satisfaction Risk Zones
+
+| Age Group | Avg Tenure | Satisfaction | Risk Level |
+|---|---|---|---|
+| 18–25 | 1.1 years | Low | Medium |
+| 26–35 | 3.2 years | 3.7 / 5 | **High** |
+| 36–55 | 6.4 years | High | Low |
+
+### 4. 💰 Compensation & Engagement Link
 - Salary vs Satisfaction correlation: **r = 0.57**
-- Bottom quartile salaries (**₹4.2 L**) → lowest satisfaction (**3.5/5**)
-- Top quartile salaries (**₹11.4 L**) → highest satisfaction (**4.3/5**)
-- **Recommendation**: Salary band transparency and targeted adjustments for bottom quartile
+- Bottom quartile (₹4.2L avg) → Satisfaction: **3.5 / 5**
+- Top quartile (₹11.4L avg) → Satisfaction: **4.3 / 5**
+- Clear evidence: **underpaying increases attrition risk**
+
+### 5. ⏰ Performance & Overtime Impact
+- Low performance employees: **15.6% of attrition cases** — often disengagement, not underperformance
+- Overtime workers: **127 exits** vs non-overtime: **110 exits** — burnout is a measurable attrition driver
 
 ---
 
-### 5. Performance & Overtime Impact
-- Low performance rating employees: **15.6%** of attrition cases — often linked to disengagement
-- Overtime workers: Higher attrition (**127 exits**) vs non-overtime (**110 exits**) — suggests burnout risk
+## 💡 Business Recommendations & 12-Month OKRs
+
+| Initiative | Owner | Metric | Target |
+|---|---|---|---|
+| Life Sciences Career Ladder | HRBP | Attrition % | 39% → 15% |
+| Women-in-Tech Scholarship | Talent Dev | Female R&D % | 6% → 15% |
+| Manager Upskilling Program | L&D | Manager eNPS | +12 → +35 |
+| Exit Interview Dashboard | People Analytics | Insights Actioned | 80% |
+| Salary Band Transparency | Comp & Ben | Bottom Quartile Satisfaction | 3.5 → 4.0 |
 
 ---
 
-##  Business Impact
-If the organization:
-- Reduces Life Sciences attrition from **39% → 15%**
-- Increases female representation in R&D from **6% → 15%**
-- Improves bottom quartile satisfaction from **3.5 → 4.0**
+## 📈 Projected Business Impact
 
-**Projected Savings**: **₹3.1 Cr annually**  
-**Additional Gains**: Higher innovation capacity, improved employer brand, reduced recruitment costs
+If the organization implements all recommendations:
 
----
+| Action | Current | Target |
+|---|---|---|
+| Life Sciences Attrition | 39% | 15% |
+| Female R&D Representation | 6% | 15% |
+| Bottom Quartile Satisfaction | 3.5 / 5 | 4.0 / 5 |
+| **Projected Annual Savings** | — | **₹3.1 Cr** |
 
-##  Recommendations & 12-Month OKRs
-
-| Initiative                  | Owner            | Metric                        | Target       |
-|-----------------------------|------------------|--------------------------------|--------------|
-| Life Sciences Career Ladder | HRBP             | Attrition %                    | 39% → 15%    |
-| Women-in-Tech Scholarship   | Talent Dev       | Female R&D %                   | 6% → 15%     |
-| Manager Upskilling Program  | L&D              | Manager eNPS                   | +12 → +35    |
-| Exit Interview Dashboard    | People Analytics | Insights Actioned              | 80%          |
-| Salary Band Transparency    | Comp & Ben       | Satisfaction (Bottom Quartile) | 3.5 → 4.0    |
+Additional gains: Higher innovation capacity, improved employer brand, reduced recruitment costs.
 
 ---
 
-##  Dashboard Features
+## 🗄️ Data Sources Used
 
-- **Interactive Filters**: Department, role, gender, tenure, salary quartile
-- **Drill-through Pages**: Attrition by education, performance, overtime
-- **KPI Cards**: Attrition %, active employees, gender ratio, cost of attrition
-- **Visual Types**: Bar charts, pie charts, line graphs, correlation plots
-- **Data Storytelling**: Executive snapshot with quantified business impact
-
----
-
-##  Tools & Skills Used
-
-- **Power BI**: Data modeling, DAX measures, interactive dashboards
-- **Power Query**: Data cleaning, transformation, ETL logic
-- **SQL**: Data extraction, joins, aggregations
-- **Excel**: PivotTables, advanced charting, VBA automation
-- **Data Storytelling**: Executive summaries, business case framing
+| Source | Data Provided |
+|---|---|
+| HRIS | Employee demographics, job roles, tenure, department |
+| Payroll | Monthly income, salary quartiles |
+| Engagement Surveys | Job satisfaction scores, eNPS |
+| Exit Interviews | Attrition reasons and patterns |
+| ATS / Recruitment Data | Hiring pipeline and replacement costs |
 
 ---
 
-##  Conclusion
+## 🛠️ Technical Approach
 
-This project demonstrates how **HR data is business performance data**.  
-By combining **data visualization, statistical analysis, and business storytelling**, we can move from **descriptive reporting** to **prescriptive action** — turning insights into measurable ROI.
+### Power BI
+- **Star schema** data model connecting HR, payroll, and survey data
+- **DAX measures** for attrition rate, cost of attrition, satisfaction scores, and gender ratios
+- **Interactive filters** by department, role, gender, tenure, and salary quartile
+- **Drill-through pages** for attrition by education, performance, and overtime
+- **KPI cards** for attrition %, active employees, gender ratio, and cost of attrition
+- **Correlation plots** for salary vs satisfaction analysis
+- **Executive snapshot page** with quantified business impact
 
+### Power Query
+- ETL pipeline: data cleaning, transformation, and normalization
+- Merging HRIS, payroll, and survey datasets into unified model
+
+### SQL
+- Data extraction using JOINs across HR tables
+- Aggregations for department-wise and role-wise KPI calculation
+
+### Excel
+- PivotTable analysis for preliminary data exploration
+- Advanced charting and VBA automation for data preparation
+
+---
+
+## 📁 Repository Structure
