@@ -8,20 +8,15 @@
 
 ---
 
-
-# 👥 HR Attrition & Turnover Analysis – Power BI
-
-> **Role:** Data Analyst | **Tools:** Power BI · DAX · SQL · Power Query · Excel | **Domain:** HR Analytics · People Analytics
-
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Analyzed employee attrition patterns across demographics, job roles, departments, compensation, and engagement factors using Power BI. The dashboards consolidate HRIS, survey, and payroll data to **uncover attrition drivers, quantify financial impact, and recommend data-backed interventions** — turning HR data into business performance intelligence.
 
 ---
 
-## 🎯 Executive Summary
+##  Executive Summary
 
 | Metric | Value |
 |---|---|
@@ -35,9 +30,9 @@ Analyzed employee attrition patterns across demographics, job roles, departments
 
 ---
 
-## 🔍 Key Findings
+##  Key Findings
 
-### 1. 🔥 Attrition Hotspots
+### 1.  Attrition Hotspots
 
 | Role / Department | Exits | Key Driver |
 |---|---|---|
@@ -45,12 +40,12 @@ Analyzed employee attrition patterns across demographics, job roles, departments
 | Laboratory Technicians | 62 exits | Low engagement, early-tenure churn |
 | Sales Representatives | 53 exits | High travel pressure and performance stress |
 
-### 2. ⚖️ Gender Imbalance in Technical Roles
+### 2.  Gender Imbalance in Technical Roles
 - R&D has only **6% female representation** (37 women out of 587 roles)
 - Limits diversity of thought and reduces innovation capacity
 - **Target:** Raise female R&D representation to **15% within 12 months**
 
-### 3. 📅 Tenure & Satisfaction Risk Zones
+### 3.  Tenure & Satisfaction Risk Zones
 
 | Age Group | Avg Tenure | Satisfaction | Risk Level |
 |---|---|---|---|
@@ -58,7 +53,7 @@ Analyzed employee attrition patterns across demographics, job roles, departments
 | 26–35 | 3.2 years | 3.7 / 5 | **High** |
 | 36–55 | 6.4 years | High | Low |
 
-### 4. 💰 Compensation & Engagement Link
+### 4.  Compensation & Engagement Link
 - Salary vs Satisfaction correlation: **r = 0.57**
 - Bottom quartile (₹4.2L avg) → Satisfaction: **3.5 / 5**
 - Top quartile (₹11.4L avg) → Satisfaction: **4.3 / 5**
@@ -70,7 +65,7 @@ Analyzed employee attrition patterns across demographics, job roles, departments
 
 ---
 
-## 💡 Business Recommendations & 12-Month OKRs
+##  Business Recommendations & 12-Month OKRs
 
 | Initiative | Owner | Metric | Target |
 |---|---|---|---|
@@ -97,7 +92,7 @@ Additional gains: Higher innovation capacity, improved employer brand, reduced r
 
 ---
 
-## 🗄️ Data Sources Used
+##  Data Sources Used
 
 | Source | Data Provided |
 |---|---|
@@ -109,7 +104,7 @@ Additional gains: Higher innovation capacity, improved employer brand, reduced r
 
 ---
 
-## 🛠️ Technical Approach
+##  Technical Approach
 
 ### Power BI
 - **Star schema** data model connecting HR, payroll, and survey data
