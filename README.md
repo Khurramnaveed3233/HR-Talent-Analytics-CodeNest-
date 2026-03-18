@@ -129,4 +129,32 @@ Additional gains: Higher innovation capacity, improved employer brand, reduced r
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
+
+```
+ HR-Talent-Analytics
+├── 📄 HR_Analysis.sql               — SQL data extraction scripts
+├── 📊 HR_Attrition_Dashboard.pbix   — Interactive Power BI dashboard
+├── 🖼️  HR Analytics Dashboard.jpg    — Dashboard preview
+└── 📄 README.md                     — Project documentation
+```
+
+---
+
+##  Dashboard Preview
+
+![HR Attrition Dashboard](HR%20Analytics%20Dashboard.jpg)
+
+---
+
+##  About
+
+**Khurram Naveed** — Data Analyst specializing in Power BI, SQL, and business intelligence.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/khurramnaveed3233)
+[![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black?logo=github)](https://github.com/Khurramnaveed3233)
+[![Email](https://img.shields.io/badge/Email-Contact-red?logo=gmail)](mailto:khurramnaveed4545@gmail.com)
+
+---
+
+>  *This project demonstrates that HR data is business performance data. By combining Power BI visualization, DAX calculations, and business storytelling, we move from descriptive reporting to prescriptive action — turning people analytics into measurable ROI.*
